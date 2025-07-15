@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   return (
     <nav className="bg-[#ffffff]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
@@ -68,7 +66,7 @@ const NavBar = () => {
           <Link to="/" className="block text-[#EC6112] underline">
             Home
           </Link>
-          <Link to="/menu" className="block ">
+          <Link to="/menu" className="block">
             Menu
           </Link>
           <Link to="/customize" className="block">

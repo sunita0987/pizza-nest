@@ -3,8 +3,8 @@ import pizzaImage from "../assets/images/pizza.png";
 import bgImage from "../assets/images/herosecton.png";
 const HeroSection = () => {
   return (
-            <section
-      className="relative bg-cover  bg-no-repeat rounded-4xl text-[#ffffff] w-full h-200"
+    <section
+      className="relative bg-cover  bg-no-repeat rounded-4xl text-[#ffffff] w-full h-150"
       style={{
         backgroundImage: `url(${bgImage})`,
       }}
@@ -45,5 +45,4 @@ const HeroSection = () => {
     </section>
   );
 };
-
 export default HeroSection;

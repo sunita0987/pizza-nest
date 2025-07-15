@@ -28,7 +28,7 @@ const Nest = () => {
             </li>
           </ul>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
-            <div className="flex flex-col items-center p-4 border-dashed rounded-xl border-3 border-orange-300 shadow hover:shadow-lg transition cursor-pointer">
+            <div className="flex flex-col items-center p-4 border-dashed rounded-xl  border-3 border-orange-300 shadow hover:shadow-lg transition cursor-pointer">
               <FaUserTie className="text-[#EC6112] text-2xl mb-2" />
               <p className="font-medium text-[#474747] ">Professional Chefs</p>
             </div>
