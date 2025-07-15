@@ -2,7 +2,7 @@ import React from "react";
 import chefImage from "../assets/images/owner.png";
 // import slice from "../assets/images/slice.png"
 import { FaUserTie, FaStar, FaHeadset } from "react-icons/fa";
-const WelcomeSection = () => {
+const Nest = () => {
   return (
     <section className="px-4 py-10 md:px-20 bg-gradient-to-r from-[#F8F8F8] to-[#FEFEFE]">
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
@@ -50,4 +50,4 @@ const WelcomeSection = () => {
     </section>
   );
 };
-export default WelcomeSection;
+export default Nest;

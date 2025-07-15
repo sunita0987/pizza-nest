@@ -4,7 +4,7 @@ import bgImage from "../assets/images/herosecton.png";
 const HeroSection = () => {
   return (
             <section
-      className="relative bg-cover  bg-no-repeat rounded-4xl text-[#ffffff] w-full h-150"
+      className="relative bg-cover  bg-no-repeat rounded-4xl text-[#ffffff] w-full h-200"
       style={{
         backgroundImage: `url(${bgImage})`,
       }}
