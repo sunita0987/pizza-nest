@@ -3,7 +3,7 @@ import pizzaImage from "../assets/images/pizza.png";
 import bgImage from "../assets/images/herosecton.png";
 const HeroSection = () => {
   return (
-    <section
+            <section
       className="relative bg-cover  bg-no-repeat rounded-4xl text-[#ffffff] w-full h-150"
       style={{
         backgroundImage: `url(${bgImage})`,
@@ -27,7 +27,6 @@ const HeroSection = () => {
               View Full Menu
             </button>
           </div>
-
           <div className="mt-10 flex gap-10 text-center">
             <div>
               <h2 className="text-2xl font-semibold">5,000+</h2>
