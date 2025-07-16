@@ -33,15 +33,7 @@ const Footer = () => {
             >
               <FaInstagram />
             </a>
-
-            {/* <a
-              href="#"
-              className="text-white bg-orange-500 p-2 rounded-full hover:bg-orange-600"
-            >
-              <FaLinkedinIn />
-            </a> */}
-
-             <a
+            <a
               href="https://www.linkedin.com/feed/"
               target="_blank"
               rel="noopener noreferrer"
@@ -49,12 +41,13 @@ const Footer = () => {
             >
               <FaLinkedinIn />
             </a>
-
           </div>
         </div>
         <div>
-          <h3 className="font-semibold text-gray-800 mb-3 ml-40">Quick Links</h3>
-          <ul className="text-gray-600 space-y-2 ml-40">
+          <h3 className="font-semibold text-[#010101] mb-3 ml-60">
+            Quick Links
+          </h3>
+          <ul className="text-[#575757] space-y-2 ml-60">
             <li>
               <a href="#">Home</a>
             </li>
@@ -76,8 +69,8 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h3 className="font-semibold text-gray-800 mb-3">Support</h3>
-          <ul className="text-gray-600 space-y-2">
+          <h3 className="font-semibold text-[#010101] mb-3 ml-40">Support</h3>
+          <ul className="text-[#575757] space-y-2 ml-40">
             <li>
               <a href="#">Terms & Conditions</a>
             </li>
@@ -88,8 +81,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom copyright */}
-      <div className="border-t mt-10 pt-4 text-center text-gray-500 text-sm">
+      <div className="border-t-4 border-[#D1D1D166] mt-10 pt-4 text-center text-[#575757] text-sm">
         Copyright Pizza Nest © 2025, All rights reserved
       </div>
     </footer>
