@@ -1,5 +1,6 @@
 import React from "react";
 import chefImage from "../assets/images/owner.png";
+import line from "../assets/images/orangeline.png";
 // import slice from "../assets/images/slice.png"
 import { FaUserTie, FaStar, FaHeadset } from "react-icons/fa";
 const Nest = () => {
@@ -7,6 +8,9 @@ const Nest = () => {
     <section className="px-4 py-10 md:px-20 bg-gradient-to-r from-[#F8F8F8] to-[#FEFEFE]">
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
         <div>
+          {/* <div className="flex items-center gap-2">
+            <img src={line} alt="orange line" className="" />
+      </div> */}
           <p className="text-[#EC6112]  font-semibold mb-2">About Us</p>
           <h2 className="text-3xl md:text-4xl  mb-4 font-Nunito">
             Welcome to the <span className="text-[#EC6112]">Nest</span>

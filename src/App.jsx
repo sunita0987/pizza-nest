@@ -11,6 +11,7 @@ import PerfectPizza from "./components/PerfectPizza";
 import PizzaBanner from "./components/PizzaBanner";
 import Footer from "./components/Footer";
 import Sellers from "./components/Sellers";
+import Menu from "./components/Menu";
 // import TestimonialsSlider from "./components/TestimonialsSlider";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Nest />
       <Card />
       <Sellers/>
+      <Menu/>
       <BestSeller/>
       <FoodDelivery/>
       <PerfectPizza/>

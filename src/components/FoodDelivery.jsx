@@ -1,9 +1,10 @@
 import React from "react";
 import deliveryImg from "../assets/images/fast.png";
+// import bgimage from "../assets/images/4thsectionbg.png";
 
 const DeliveryBanner = () => {
   return (
-    <div className="bg-[#F8F8F880] opacity-80 py-12 px-4 md:px-16 flex flex-col md:flex-row items-center justify-between">
+    <div className=" opacity-80 py-12 px-4 md:px-16 flex flex-col md:flex-row items-center justify-between">
       <div className="md:w-1/2 space-y-6 text-center md:text-left">
         <p className="text-[#EC6112] font-semibold">
           Food Delivery
