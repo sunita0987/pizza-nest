@@ -125,6 +125,7 @@ export const DATA = {
       decscription:
         "Onion, capsicum, tomato, grilled mushroom, mozzarella cheese",
       img: combo,
+
     },
   ],
   "Sides & Dips": [
