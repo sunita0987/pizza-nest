@@ -72,7 +72,7 @@ export const TEST_DATA = [
   },
 ];
 
-export const DATA = {
+export const MENU_DATA = {
   All: [
     {
       price: "₹229 / ₹359 / ₹499",
