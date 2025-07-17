@@ -2,7 +2,7 @@ import React from "react";
 import pizza1 from "../assets/images/largepizza.png";
 import banner from "../assets/images/banner.png";
 
-const BestSeller = () => {
+const BestSellers = () => {
   return (
     <section
       className="relative bg-cover bg-no-repeat  text-[#ffffff] min-h-full"
@@ -19,7 +19,7 @@ const BestSeller = () => {
             Medium & Large pizzas
           </h1>
           <p className="text-[#EC6112] font-normal">Limited Offer</p>
-          <button className="bg-gradient-to-r from-[#EC6112] to-[#FF902E] cursor-pointer rounded-xl text-white px-6 py-2 transition duration-300">
+          <button className="bg-gradient-to-r from-[#EC6112] to-[#FF902E] cursor-pointer rounded-xl text-[#ffffff] px-6 py-2 transition duration-300">
             Order Now
           </button>
         </div>
@@ -30,4 +30,4 @@ const BestSeller = () => {
     </section>
   );
 };
-export default BestSeller;
+export default BestSellers;

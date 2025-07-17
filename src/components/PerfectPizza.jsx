@@ -19,7 +19,7 @@ const steps = [
   },
 ];
 
-const PizzaSteps = () => {
+const PerfectPizza = () => {
   return (
     <section className="py-12 px-6 text-center bg-white">
       <p className="text-orange-500 font-semibold mb-2">How It Works</p>
@@ -74,4 +74,4 @@ const PizzaSteps = () => {
   );
 };
 
-export default PizzaSteps;
+export default PerfectPizza;

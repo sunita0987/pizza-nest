@@ -11,7 +11,6 @@ const Sellers = () => {
         Tried, tested, and totally loved. These pizzas are always a crowd
         favorite.
       </p>
-
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
         {PIZZAS.map((pizza, index) => (
           <div

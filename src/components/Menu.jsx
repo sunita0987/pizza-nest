@@ -2,7 +2,7 @@ import React from "react";
 import { CRAVINGS_DATA } from "../utils/helper";
 import { useState } from "react";
 
- export const PIZZA_CTY = [
+export const PIZZA_CTY = [
   "All",
   "Veg Pizzas",
   "Non-Veg Pizzas",
@@ -41,9 +41,6 @@ const Menu = () => {
               className="w-full h-60 object-cover rounded-xl"
             />
             <div className="bg-[#ffffff] p-6 rounded-xl shadow text-center border-1 border-[#00000014]">
-              <p className="text-[#EC6112] text-xl font-bold mb-2">
-                {item.price}
-              </p>
               <p className="text-orange-500 mt-1 ">{item.price}</p>
               <h3 className="text-lg font-semibold">{item.name}</h3>
               <p className="text-[#5C5C5C] text-lg">{item.description} </p>
