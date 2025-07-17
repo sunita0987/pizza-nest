@@ -4,25 +4,29 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import slice from "../assets/images/rectanglepizza.png";
+
+
 
 export const TEST_DATA = [
   {
     name: "Aarav Mehta",
     role: "Software Developer",
     text: " The Masala Paneer Pizza was bursting with flavor! The paneer was perfectly marinated in Indian spices, and the balance of onions, capsicum, and cheese was spot on. It tasted like my favorite desi snck-just in pizza from! Super satisfying and definitely ordering again. ",
-    pizza: slice1,
+    pizza: slice,
   },
   {
     name: "Jiya Sharma",
     role: "UI/UX Designer",
     text: " The Masala Paneer Pizza was bursting with flavor! The paneer was perfectly marinated in Indian spices, and the balance of onions, capsicum, and cheese was spot on. It tasted like my favorite desi snck-just in pizza from! Super satisfying and definitely ordering again.",
-    pizza: slice2,
+    pizza: slice,
   },
   {
     name: "Rahul Sharma",
     role: "front-end developer",
     text: "The Masala Paneer Pizza was bursting with flavor! The paneer was perfectly marinated in Indian spices, and the balance of onions, capsicum, and cheese was spot on. It tasted like my favorite desi snck-just in pizza from! Super satisfying and definitely ordering again.",
-    pizza: slice2,
+    pizza: slice,
   },
 ];
 

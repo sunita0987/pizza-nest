@@ -11,8 +11,8 @@ import img5 from "../assets/images/pizza5.png";
 import img6 from "../assets/images/pizza6.png";
 import img7 from "../assets/images/pizza7.png";
 
-import slice1 from "../assets/images/rectanglepizza.png";
-import slice2 from "../assets/images/rectanglepizza.png";
+// import slice1 from "../assets/images/rectanglepizza.png";
+// import slice2 from "../assets/images/rectanglepizza.png";
 
 
 
