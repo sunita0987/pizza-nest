@@ -1,5 +1,5 @@
 import React from "react";
-import { CRAVINGS_DATA } from "../utils/helper";
+import { CRAVINGS_DATA } from "../utils/helper.js";
 import { useState } from "react";
 
 export const PIZZA_CTY = [
@@ -9,6 +9,8 @@ export const PIZZA_CTY = [
   "Combos & Drinks",
   "Sides & Dips",
 ];
+
+
 const Menu = () => {
   const [activeTab, setActiveTab] = useState("All");
   return (
