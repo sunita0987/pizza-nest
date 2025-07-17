@@ -11,8 +11,7 @@ import img5 from "../assets/images/pizza5.png";
 import img6 from "../assets/images/pizza6.png";
 import img7 from "../assets/images/pizza7.png";
 
-// import slice1 from "../assets/images/rectanglepizza.png";
-// import slice2 from "../assets/images/rectanglepizza.png";
+import slice from "../assets/images/rectanglepizza.png";
 
 
 
@@ -51,26 +50,26 @@ export const PIZZAS = [
   },
 ];
 
-// export const TEST_DATA = [
-//   {
-//     name: "Aarav Mehta",
-//     role: "Software Developer",
-//     text: " The Masala Paneer Pizza was bursting with flavor! The paneer was perfectly marinated in Indian spices, and the balance of onions, capsicum, and cheese was spot on. It tasted like my favorite desi snck-just in pizza from! Super satisfying and definitely ordering again. ",
-//     pizza: slice1,
-//   },
-//   {
-//     name: "Jiya Sharma",
-//     role: "UI/UX Designer",
-//     text: " The Masala Paneer Pizza was bursting with flavor! The paneer was perfectly marinated in Indian spices, and the balance of onions, capsicum, and cheese was spot on. It tasted like my favorite desi snck-just in pizza from! Super satisfying and definitely ordering again.",
-//     pizza: slice2,
-//   },
-//   {
-//     name: "Rahul Sharma",
-//     role: "front-end developer",
-//     text: "The Masala Paneer Pizza was bursting with flavor! The paneer was perfectly marinated in Indian spices, and the balance of onions, capsicum, and cheese was spot on. It tasted like my favorite desi snck-just in pizza from! Super satisfying and definitely ordering again.",
-//     pizza: slice2,
-//   },
-// ];
+export const TEST_DATA = [
+  {
+    name: "Aarav Mehta",
+    role: "Software Developer",
+    text: " The Masala Paneer Pizza was bursting with flavor! The paneer was perfectly marinated in Indian spices, and the balance of onions, capsicum, and cheese was spot on. It tasted like my favorite desi snck-just in pizza from! Super satisfying and definitely ordering again. ",
+    pizza: slice,
+  },
+  {
+    name: "Jiya Sharma",
+    role: "UI/UX Designer",
+    text: " The Masala Paneer Pizza was bursting with flavor! The paneer was perfectly marinated in Indian spices, and the balance of onions, capsicum, and cheese was spot on. It tasted like my favorite desi snck-just in pizza from! Super satisfying and definitely ordering again.",
+    pizza: slice,
+  },
+  {
+    name: "Rahul Sharma",
+    role: "front-end developer",
+    text: "The Masala Paneer Pizza was bursting with flavor! The paneer was perfectly marinated in Indian spices, and the balance of onions, capsicum, and cheese was spot on. It tasted like my favorite desi snck-just in pizza from! Super satisfying and definitely ordering again.",
+    pizza: slice,
+  },
+];
 
 export const CRAVINGS_DATA = {
   All: [
