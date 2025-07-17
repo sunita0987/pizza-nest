@@ -1,7 +1,7 @@
 import React from "react";
 import { GALLERY_IMG } from "../utils/helper";
 
-const Gallery = () => {
+const PizzaGallery = () => {
   return (
     <div className="max-w-[1320px] mx-auto px-3 mt-[77px] text-center">
       <h3 className="text-[#EC6112] font-semibold mb-2">Our Gallery</h3>
@@ -31,4 +31,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default PizzaGallery;
