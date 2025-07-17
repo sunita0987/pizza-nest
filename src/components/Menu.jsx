@@ -2,17 +2,15 @@ import React from "react";
 import { CRAVINGS_DATA } from "../utils/helper";
 import { useState } from "react";
 
-const Menupizza = [
+ export const PIZZA_CTY = [
   "All",
   "Veg Pizzas",
   "Non-Veg Pizzas",
   "Combos & Drinks",
   "Sides & Dips",
 ];
-
 const Menu = () => {
   const [activeTab, setActiveTab] = useState("All");
-
   return (
     <div className="px-6 py-10 max-w-6xl mx-auto">
       <p className="text-[#EC6112] text-sm font-bold text-center">Our Menu</p>
@@ -20,7 +18,7 @@ const Menu = () => {
         Explore Flavours, Pick <br /> Your Cravings
       </h2>
       <div className="flex justify-center gap-3 flex-wrap mb-8">
-        {Menupizza.map((tab) => (
+        {PIZZA_CTY.map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
