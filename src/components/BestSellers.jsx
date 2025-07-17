@@ -5,7 +5,7 @@ import banner from "../assets/images/banner.png";
 const BestSeller = () => {
   return (
     <section
-      className="relative bg-cover  bg-no-repeat  text-[#ffffff]"
+      className="relative bg-cover bg-no-repeat  text-[#ffffff] min-h-full"
       style={{
         backgroundImage: `url(${banner})`,
       }}
