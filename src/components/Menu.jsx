@@ -1,5 +1,5 @@
 import React from "react";
-import { MENU_DATA } from "../utils/helper";
+import { CRAVINGS_DATA } from "../utils/helper";
 import { useState } from "react";
 
 const Menupizza = [
@@ -35,7 +35,7 @@ const Menu = () => {
         ))}
       </div>
       <div className="grid md:grid-cols-3 gap-6">
-        {MENU_DATA[activeTab].map((item, idx) => (
+        {CRAVINGS_DATA[activeTab].map((item, idx) => (
           <div key={idx} className=" p-4 text-center">
             <img
               src={item.img}
@@ -56,5 +56,4 @@ const Menu = () => {
     </div>
   );
 };
-
 export default Menu;
