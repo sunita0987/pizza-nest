@@ -20,7 +20,7 @@ import farmhouse from "../assets/images/vegpizza.png";
 import masala from "../assets/images/pannermasala.png";
 import combo from "../assets/images/drink.png";
 
-export const Pizzas = [
+export const PIZZAS = [
   {
     name: "Tandoori Paneer",
     price: "₹279",

@@ -1,7 +1,7 @@
 import React from "react";
-import { Pizzas } from "../utils/helper";
+import { PIZZAS } from "../utils/helper";
 
-console.log(Pizzas);
+console.log(PIZZAS);
 const Sellers = () => {
   return (
     <section className="py-16 px-4 bg-[#F8F8F880] opacity-100 text-center">
@@ -15,7 +15,7 @@ const Sellers = () => {
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
-        {Pizzas.map((pizza, index) => (
+        {PIZZAS.map((pizza, index) => (
           <div
             key={index}
             className="bg-[#ffffff] rounded-xl  border-1 border-[#0000000F] shadow-md p-6 text-center flex flex-col items-center"
@@ -32,7 +32,7 @@ const Sellers = () => {
             <p className="text-sm text-[#5C5C5C] mt-1 mb-4">
               {pizza.description}
             </p>
-             <button className="bg-gradient-to-r from-[#EC6112] to-[#FF902E] text-[#ffffff] px-6 py-2 rounded-xl transition cursor-pointer">
+            <button className="bg-gradient-to-r from-[#EC6112] to-[#FF902E] text-[#ffffff] px-6 py-2 rounded-xl transition cursor-pointer">
               Order Now
             </button>
           </div>
