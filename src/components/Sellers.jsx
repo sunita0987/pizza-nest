@@ -1,5 +1,6 @@
 import React from "react";
 import { Pizzas } from "../utils/helper";
+
 console.log(Pizzas);
 const Sellers = () => {
   return (

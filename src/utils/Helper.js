@@ -52,7 +52,7 @@ export const  Pizzas = [
       "Masala-marinated paneer, sautéed onions, green & red capsicum, mozzarella cheese",
     image: masalaPaneer,
   },
-];
+]
 
 export const TEST_DATA = [
   {
