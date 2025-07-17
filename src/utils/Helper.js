@@ -11,19 +11,17 @@ import Galleryimg5 from "../assets/images/pizza5.png";
 import Galleryimg6 from "../assets/images/pizza6.png";
 import Galleryimg7 from "../assets/images/pizza7.png";
 
-
 import slice1 from "../assets/images/rectanglepizza.png";
 import slice2 from "../assets/images/rectanglepizza.png";
 import men from "../assets/images/1stimage.png";
 import women from "../assets/images/2ndimage.png";
 import ui from "../assets/images/3rdimage.png";
 
-
 import farmhouse from "../assets/images/vegpizza.png";
 import masala from "../assets/images/pannermasala.png";
 import combo from "../assets/images/drink.png";
 
-export const  Pizzas = [
+export const Pizzas = [
   {
     name: "Tandoori Paneer",
     price: "₹279",
@@ -52,32 +50,31 @@ export const  Pizzas = [
       "Masala-marinated paneer, sautéed onions, green & red capsicum, mozzarella cheese",
     image: masalaPaneer,
   },
-]
+];
 
 export const TEST_DATA = [
   {
     name: "Aarav Mehta",
     role: "Software Developer",
-    text: "The Masala Paneer Pizza was bursting with flavor! The paneer was perfectly marinated in Indian spices, and the balance of onions, capsicum, and cheese was spot on. It tasted like my favorite desi snack—just in pizza form! Super satisfying and definitely ordering again.",
+    text: " The Masala Paneer Pizza was bursting with flavor! The paneer was perfectly marinated in Indian spices, and the balance of onions, capsicum, and cheese was spot on. It tasted like my favorite desi snck-just in pizza from! Super satisfying and definitely ordering again. ",
     image: men,
     pizza: slice1,
   },
   {
-    name: "Neha Sharma",
+    name: "Jiya Sharma",
     role: "UI/UX Designer",
-    text: "Absolutely loved the spicy paneer pizza! The crust was crispy and the toppings were fresh and flavorful. A perfect balance of spice and cheese.",
+    text: " The Masala Paneer Pizza was bursting with flavor! The paneer was perfectly marinated in Indian spices, and the balance of onions, capsicum, and cheese was spot on. It tasted like my favorite desi snck-just in pizza from! Super satisfying and definitely ordering again.",
     image: women,
     pizza: slice2,
   },
   {
-    name: "Neha Sharma",
-    role: "UI/UX Designer",
-    text: "Absolutely loved the spicy paneer pizza! The crust was crispy and the toppings were fresh and flavorful. A perfect balance of spice and cheese.",
+    name: "Rahul Sharma",
+    role: "front-end developer",
+    text: "The Masala Paneer Pizza was bursting with flavor! The paneer was perfectly marinated in Indian spices, and the balance of onions, capsicum, and cheese was spot on. It tasted like my favorite desi snck-just in pizza from! Super satisfying and definitely ordering again.",
     image: ui,
     pizza: slice2,
   },
 ];
-
 
 export const DATA = {
   All: [
@@ -136,7 +133,6 @@ export const DATA = {
       decscription:
         "Onion, capsicum, tomato, grilled mushroom, mozzarella cheese",
       img: combo,
-
     },
   ],
   "Sides & Dips": [
@@ -150,42 +146,40 @@ export const DATA = {
   ],
 };
 
-
 export const GALLERY_IMG = [
-    {
-        image: Galleryimg1,
-        colSpan: 'col-span-1 ',
-        rowSpan: 'row-span-1 ',
-    },
-    {
-        image: Galleryimg2,
-        colSpan: 'col-span-1 ',
-        rowSpan: 'row-span-1 ',
-    },
-    {
-        image: Galleryimg3,
-        colSpan: 'col-span-1 ',
-        rowSpan: 'row-span-2 ',
-    },
-    {
-        image: Galleryimg4,
-        colSpan: 'col-span-2 ',
-        rowSpan: 'row-span-1 ',
-    },
-    {
-        image: Galleryimg5,
-        colSpan: 'col-span-1',
-        rowSpan: 'row-span-1',
-    },
-    {
-        image: Galleryimg6,
-        colSpan: 'col-span-2 ',
-        rowSpan: 'row-span-1 ',
-    },
-    {
-        image: Galleryimg7,
-        colSpan: 'col-span-2 ',
-        rowSpan: 'row-span-1 ',
-    },
-
-]
+  {
+    image: Galleryimg1,
+    colSpan: "col-span-1 ",
+    rowSpan: "row-span-1 ",
+  },
+  {
+    image: Galleryimg2,
+    colSpan: "col-span-1 ",
+    rowSpan: "row-span-1 ",
+  },
+  {
+    image: Galleryimg3,
+    colSpan: "col-span-1 ",
+    rowSpan: "row-span-2 ",
+  },
+  {
+    image: Galleryimg4,
+    colSpan: "col-span-2 ",
+    rowSpan: "row-span-1 ",
+  },
+  {
+    image: Galleryimg5,
+    colSpan: "col-span-1",
+    rowSpan: "row-span-1",
+  },
+  {
+    image: Galleryimg6,
+    colSpan: "col-span-2 ",
+    rowSpan: "row-span-1 ",
+  },
+  {
+    image: Galleryimg7,
+    colSpan: "col-span-2 ",
+    rowSpan: "row-span-1 ",
+  },
+];

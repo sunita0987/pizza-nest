@@ -2,7 +2,6 @@ import React from "react";
 import { TEST_DATA } from "../utils/helper";
 console.log(TEST_DATA);
 
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
@@ -31,21 +30,22 @@ const TestimonialSlider = () => {
           <SwiperSlide key={i}>
             <div className="flex flex-col md:flex-row items-center justify-center gap-10">
               <img
-                src={t.foodimage}
+                src={t.pizza}
                 alt="Food"
                 className="w-80 h-80 object-cover rounded-xl shadow-lg"
               />
-              <div className="bg-white shadow-lg rounded-xl p-6 max-w-xl text-left relative">
-                <p className="text-gray-700 mb-4">{t.review}</p>
-                <h4 className="font-bold text-lg">{t.name}</h4>
-                <p className="text-sm text-gray-500">{t.role}</p>
-                <span className="text-5xl text-orange-100 absolute bottom-4 right-4">“</span>
+              <div className="bg-[#ffffff] shadow-lg rounded-xl p-6 max-w-xl text-left relative">
+                  <p className="text-[#545454] text-regular">{t.text}</p>
+                   <h4 className="font-normal text-lg mt-5">{t.name}</h4>
+                <p className="text-sm text-gray-500 ">{t.role}</p>
+                <span className="text-5xl text-orange-100 absolute bottom-4 right-4">
+                  “
+                </span>
               </div>
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
-
       <div className="flex justify-center gap-4 mt-10">
         <button className="prev-btn p-3 bg-gray-200 rounded hover:bg-gray-300">
           <FaArrowLeft />
