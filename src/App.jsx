@@ -13,7 +13,7 @@ import PizzaBanner from "./components/PizzaBanner";
 import Footer from "./components/Footer";
 // import Sellers from "./components/Sellers";
 // import Menu from "./components/Menu";
-import PizzaGallery from "./components/PizzaGallery";
+// import PizzaGallery from "./components/PizzaGallery";
 // import TestimonialsSlider from "./components/TestimonialsSlider";
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
       <FoodDelivery />
       <PerfectPizza />
       {/* <TestimonialsSlider/> */}
-      <PizzaGallery />
+      {/* <PizzaGallery /> */}
       <PizzaBanner />
       <Footer />
     </>
