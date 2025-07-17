@@ -2,8 +2,28 @@ import spicyPaneer from "../assets/images/Tandoori.png";
 import cheese from "../assets/images/chese2.png";
 import veggie from "../assets/images/veggie.png";
 import masalaPaneer from "../assets/images/masalapaneer.png";
-import star from "../assets/images/star.png";
-export const pizzas = [
+
+import Galleryimg1 from "../assets/images/pizza1.png";
+import Galleryimg2 from "../assets/images/pizza2.png";
+import Galleryimg3 from "../assets/images/pizza3.png";
+import Galleryimg4 from "../assets/images/pizza4.png";
+import Galleryimg5 from "../assets/images/pizza5.png";
+import Galleryimg6 from "../assets/images/pizza6.png";
+import Galleryimg7 from "../assets/images/pizza7.png";
+
+
+import slice1 from "../assets/images/rectanglepizza.png";
+import slice2 from "../assets/images/rectanglepizza.png";
+import men from "../assets/images/1stimage.png";
+import women from "../assets/images/2ndimage.png";
+import ui from "../assets/images/3rdimage.png";
+
+
+import farmhouse from "../assets/images/vegpizza.png";
+import masala from "../assets/images/pannermasala.png";
+import combo from "../assets/images/drink.png";
+
+export const  Pizzas = [
   {
     name: "Tandoori Paneer",
     price: "₹279",
@@ -34,12 +54,6 @@ export const pizzas = [
   },
 ];
 
-import slice1 from "../assets/images/rectanglepizza.png";
-import slice2 from "../assets/images/rectanglepizza.png";
-import men from "../assets/images/1stimage.png";
-import women from "../assets/images/2ndimage.png";
-import ui from "../assets/images/3rdimage.png";
-
 export const TEST_DATA = [
   {
     name: "Aarav Mehta",
@@ -64,9 +78,6 @@ export const TEST_DATA = [
   },
 ];
 
-import farmhouse from "../assets/images/vegpizza.png";
-import masala from "../assets/images/pannermasala.png";
-import combo from "../assets/images/drink.png";
 
 export const DATA = {
   All: [
@@ -138,3 +149,43 @@ export const DATA = {
     },
   ],
 };
+
+
+export const GALLERY_IMG = [
+    {
+        image: Galleryimg1,
+        colSpan: 'col-span-1 ',
+        rowSpan: 'row-span-1 ',
+    },
+    {
+        image: Galleryimg2,
+        colSpan: 'col-span-1 ',
+        rowSpan: 'row-span-1 ',
+    },
+    {
+        image: Galleryimg3,
+        colSpan: 'col-span-1 ',
+        rowSpan: 'row-span-2 ',
+    },
+    {
+        image: Galleryimg4,
+        colSpan: 'col-span-2 ',
+        rowSpan: 'row-span-1 ',
+    },
+    {
+        image: Galleryimg5,
+        colSpan: 'col-span-1',
+        rowSpan: 'row-span-1',
+    },
+    {
+        image: Galleryimg6,
+        colSpan: 'col-span-2 ',
+        rowSpan: 'row-span-1 ',
+    },
+    {
+        image: Galleryimg7,
+        colSpan: 'col-span-2 ',
+        rowSpan: 'row-span-1 ',
+    },
+
+]

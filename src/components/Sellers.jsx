@@ -1,6 +1,6 @@
 import React from "react";
-import { pizzas } from "../utils/helper";
-console.log(pizzas);
+import { Pizzas } from "../utils/helper";
+console.log(Pizzas);
 const Sellers = () => {
   return (
     <section className="py-16 px-4 bg-[#F8F8F880] opacity-100 text-center">
@@ -14,7 +14,7 @@ const Sellers = () => {
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
-        {pizzas.map((pizza, index) => (
+        {Pizzas.map((pizza, index) => (
           <div
             key={index}
             className="bg-[#ffffff] rounded-xl  border-1 border-[#0000000F] shadow-md p-6 text-center flex flex-col items-center"
