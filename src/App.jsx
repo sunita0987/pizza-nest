@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 // import Sellers from "./components/Sellers";
 import Menu from "./components/Menu";
 // import PizzaGallery from "./components/PizzaGallery";
-import TestimonialSwiper from "./components/TestimonialsSlider";
+import TestimonialsSlider from "./components/TestimonialsSlider";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
       <BestSeller/>
       <FoodDelivery/>
       <PerfectPizza/>
-      <TestimonialSwiper/>
+      <TestimonialsSlider/>
     {/* <PizzaGallery/> */}
       <PizzaBanner/>
       <Footer/>
