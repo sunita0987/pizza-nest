@@ -1,6 +1,5 @@
 import React from "react";
 import { DATA } from "../utils/helper";
-console.log(DATA);
 import { useState } from "react";
 
 const Menu = [
