@@ -1,6 +1,6 @@
-import React from "react";
-import PizzaCard from "../components/PizzaCard";
-import spicyPaneerImg from "../assets/images/spicypanner.png";
+ import React from "react";
+ import PizzaCard from "../components/PizzaCard";
+ import spicyPaneerImg from "../assets/images/spicypanner.png";
 import cheeseBurstImg from "../assets/images/cheese.png";
 
 const Card = () => {
@@ -34,3 +34,5 @@ const Card = () => {
 };
 
 export default Card;
+
+

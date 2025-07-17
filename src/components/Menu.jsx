@@ -1,5 +1,5 @@
 import React from "react";
-import { CRAVINGS_DATA } from "../utils/helper.js";
+import { CRAVINGS_DATA } from "../utils/helper";
 import { useState } from "react";
 
 export const PIZZA_CTY = [
