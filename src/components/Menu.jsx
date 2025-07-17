@@ -2,7 +2,7 @@ import React from "react";
 import { DATA } from "../utils/helper";
 import { useState } from "react";
 
-const Menu = [
+const Menupizza = [
   "All",
   "Veg Pizzas",
   "Non-Veg Pizzas",
@@ -10,8 +10,10 @@ const Menu = [
   "Sides & Dips",
 ];
 
-const PizzaMenu = () => {
+const Menu = () => {
   const [activeTab, setActiveTab] = useState("All");
+
+
   return (
     <div className="px-6 py-10 max-w-6xl mx-auto">
       <p className="text-[#EC6112] text-sm font-bold text-center">Our Menu</p>
@@ -19,7 +21,7 @@ const PizzaMenu = () => {
         Explore Flavours, Pick <br/> Your Cravings
       </h2>
       <div className="flex justify-center gap-3 flex-wrap mb-8">
-        {Menu.map((tab) => (
+        {Menupizza.map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
@@ -42,8 +44,11 @@ const PizzaMenu = () => {
               className="w-full h-60 object-cover rounded-xl"
             />
             <div className="bg-[#ffffff] p-6 rounded-xl shadow text-center border-1 border-[#00000014]">
-              <p className="text-[#EC6112] text-xl font-bold mb-2">
+              {/* <p className="text-[#EC6112] text-xl font-bold mb-2">
                 {DATA[activeTab].price}
+              </p> */}
+               <p className="text-[#EC6112] text-xl font-bold mb-2">
+                {item.price}
               </p>
               <p className="text-orange-500 mt-1 ">{item.price}</p>
               <h3 className="text-lg font-semibold">{item.name}</h3>
@@ -57,4 +62,4 @@ const PizzaMenu = () => {
   );
 };
 
-export default PizzaMenu;
+export default Menu;
