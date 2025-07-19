@@ -10,7 +10,6 @@ export const PIZZA_CTY = [
   "Sides & Dips",
 ];
 
-
 const Menu = () => {
   const [activeTab, setActiveTab] = useState("All");
   return (
